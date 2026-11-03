@@ -1,0 +1,380 @@
+name,description,ingredients,type,protein,price,prep_minutes,state
+Paneer Tikka,Grilled cottage cheese cubes with spices,paneer; yogurt; capsicum,veg,high,220,20,Punjab
+Dal Tadka,Yellow lentils with garlic tadka,lentils; garlic; cumin; ghee,veg,medium,150,15,Pan-India
+Veg Biryani,Fragrant rice with mixed vegetables,rice; vegetables; saffron,veg,low,180,25,Pan-India
+Chicken Biryani,Spicy rice cooked with chicken,rice; chicken; spices,non-veg,high,260,30,Pan-India
+Butter Chicken,Creamy mild tomato chicken curry,chicken; butter; tomato; cream,non-veg,high,300,25,Delhi
+Chole Bhature,Spicy chickpea curry with fried bread,chickpeas; flour; onion,veg,medium,140,15,Delhi
+Masala Dosa,Crispy rice crepe with potato filling,rice; lentils; potato,veg,low,120,15,Karnataka
+Egg Curry,Boiled eggs in spicy gravy,eggs; onion; tomato,non-veg,high,170,20,Pan-India
+Rajma Chawal,Kidney beans curry with rice,kidney beans; rice; tomato,veg,medium,150,20,Jammu and Kashmir
+Mango Lassi,Sweet yogurt mango drink,yogurt; mango; sugar,veg,low,80,5,Punjab
+Samosa,Fried pastry with spiced potato,potato; flour; peas,veg,low,40,10,Pan-India
+Fish Fry,Spicy crispy fried fish,fish; spices; gram flour,non-veg,high,280,20,Pan-India
+Ragi Dosa,Thin crispy dosa made from ragi and rice batter,ragi; rice; salt,veg,medium,110,15,Karnataka
+Ragi Malt,"Warm ragi porridge drink, lightly sweet",ragi; milk; jaggery,veg,low,70,8,Karnataka
+Palak Dal,Toor dal cooked with spinach and light tadka,toor dal; spinach; garlic; cumin,veg,high,150,18,Pan-India
+Methi Thepla,Whole wheat flatbread with fenugreek leaves,whole wheat flour; fenugreek leaves; spices,veg,medium,110,15,Gujarat
+Bajra Khichdi,"Pearl millet and moong dal cooked together, mild spices",bajra; moong dal; cumin; salt,veg,medium,130,25,Rajasthan
+Jowar Roti,Sorghum flatbread served with bottle gourd curry,jowar; bottle gourd; spices,veg,low,100,15,Maharashtra
+Moong Chilla,Savoury pancake of ground green gram dal with onion and coriander,moong dal; onion; coriander leaves,veg,high,110,15,Pan-India
+Sprout Salad,"Fresh sprouted moong with tomato, cucumber and lemon, no oil",sprouted moong; tomato; cucumber; onion; lemon,veg,medium,90,10,Pan-India
+Chana Chaat,"Boiled chickpeas with onion, tomato and lemon",chickpeas; onion; tomato; lemon; spices,veg,medium,90,10,Pan-India
+Lauki Curry,Light bottle gourd curry cooked with little oil,bottle gourd; tomato; onion; spices,veg,low,100,18,Pan-India
+Drumstick Sambar,South Indian dal stew with drumstick and tomato,toor dal; drumstick; tomato; tamarind,veg,medium,120,20,Tamil Nadu
+Mackerel Curry,Mackerel cooked in coconut and tomato gravy,mackerel; coconut; tomato; spices,non-veg,high,260,25,Goa
+Egg Bhurji,Scrambled eggs with onion and tomato,eggs; onion; tomato; spices,non-veg,high,120,10,Pan-India
+Chicken Soup,Clear chicken soup with light seasoning,chicken breast; garlic; pepper,non-veg,high,140,15,Pan-India
+Veg Dalia,Broken wheat cooked with carrot and cauliflower,broken wheat; carrot; cauliflower; spices,veg,medium,110,20,Pan-India
+Fruit Bowl,"Seasonal cut fruit: guava, papaya and pomegranate",guava; papaya; pomegranate,veg,low,100,5,Pan-India
+Pesarattu,Crisp green gram dosa with ginger and green chilli,green gram; rice; ginger; green chilli,veg,high,90,15,Andhra Pradesh
+Pulihora,Tangy tamarind rice with peanuts and curry leaves,rice; tamarind; peanuts; curry leaves; mustard,veg,low,100,20,Andhra Pradesh
+Gutti Vankaya,Small brinjals stuffed with peanut and sesame masala,brinjal; peanuts; sesame; onion,veg,medium,140,30,Andhra Pradesh
+Gongura Chicken,Chicken cooked with tangy gongura sorrel leaves,chicken; gongura leaves; onion; chilli,non-veg,high,260,35,Andhra Pradesh
+Ulava Charu,Thick horse gram soup with tamarind and garlic,horse gram; tamarind; garlic; cumin,veg,medium,90,35,Andhra Pradesh
+Bobbatlu,Sweet flatbread stuffed with chana dal filling,chana dal; wheat flour; cardamom,veg,medium,70,40,Andhra Pradesh
+Royyala Iguru,Dry prawn curry with onion and tomato,prawns; onion; tomato; chilli,non-veg,high,340,25,Andhra Pradesh
+Mamidikaya Pappu,Toor dal cooked with raw mango and green chilli,toor dal; raw mango; green chilli,veg,high,130,25,Andhra Pradesh
+Natu Kodi,Spicy country chicken curry with dry coconut,chicken; onion; dry coconut; spices,non-veg,high,290,40,Andhra Pradesh
+Gongura Pachadi,Sorrel leaf chutney with garlic and red chilli,gongura; garlic; red chilli,veg,low,60,10,Andhra Pradesh
+Bendakaya Fry,Crisp okra stir fry with onion,okra; onion; chilli,veg,low,110,20,Andhra Pradesh
+Chepala Pulusu,Tangy tamarind fish stew,mackerel; tamarind; tomato; onion,non-veg,high,300,35,Andhra Pradesh
+Hyderabadi Biryani,Slow cooked mutton biryani with saffron and fried onion,mutton; rice; onion; spices,non-veg,high,320,60,Telangana
+Haleem,Slow cooked mutton with broken wheat and lentils,mutton; broken wheat; chana dal; spices,non-veg,high,280,45,Telangana
+Sarva Pindi,Rice flour pancake with chana dal and sesame,rice flour; chana dal; sesame; chilli,veg,medium,80,25,Telangana
+Sakinalu,Crunchy rice flour spirals with sesame and ajwain,rice flour; sesame; ajwain,veg,low,60,20,Telangana
+Pachi Pulusu,Cold tamarind and onion soup,tamarind; onion; green chilli,veg,low,70,10,Telangana
+Bagara Baingan,Brinjal in peanut sesame coconut gravy,brinjal; peanuts; sesame; dry coconut,veg,medium,160,35,Telangana
+Khatti Dal,Sour toor dal with tamarind and tomato,toor dal; tamarind; tomato,veg,high,120,25,Telangana
+Mirchi Salan,Green chillies in peanut sesame tamarind gravy,green chilli; peanuts; sesame; tamarind,veg,medium,150,30,Telangana
+Qubani Meetha,Hyderabadi dessert of stewed dried apricots,dried apricot; almond; sugar,veg,low,120,40,Telangana
+Bamboo Pork,Pork cooked with tender bamboo shoot and ginger,pork; bamboo shoot; ginger; chilli,non-veg,high,280,35,Arunachal Pradesh
+Mithun Curry,Slow cooked mithun meat with ginger and garlic,mithun; ginger; garlic; chilli,non-veg,high,350,45,Arunachal Pradesh
+Zan Porridge,Thick millet flour porridge,millet flour; water; salt,veg,low,80,20,Arunachal Pradesh
+Pika Pila,Bamboo shoot pickle with mustard and chilli,bamboo shoot; mustard; chilli,veg,low,60,10,Arunachal Pradesh
+Bamboo Rice,Rice steamed with bamboo flavour,rice; bamboo; salt,veg,low,90,30,Arunachal Pradesh
+Monpa Thukpa,Monpa style noodle soup with greens,noodles; greens; ginger; garlic,veg,low,120,25,Arunachal Pradesh
+Masor Tenga,Light sour fish curry with tomato and ginger,carp; tomato; ginger; lemon,non-veg,high,260,30,Assam
+Aloo Pitika,"Mashed potato with mustard oil, onion and green chilli",potato; onion; green chilli; mustard oil,veg,low,80,15,Assam
+Khar,Raw papaya and black gram alkaline curry,raw papaya; black gram,veg,medium,110,25,Assam
+Duck Curry,Assamese duck curry with ginger and garlic,duck; ginger; garlic; spices,non-veg,high,330,50,Assam
+Til Pitha,Rice roll filled with sesame and jaggery,rice flour; sesame; jaggery,veg,low,70,30,Assam
+Narikol Laru,Coconut sweet balls with cardamom,coconut; sugar; cardamom,veg,low,60,20,Assam
+Lai Xaak,Stir fried mustard greens with garlic and chilli,mustard greens; garlic; green chilli,veg,low,90,15,Assam
+Jolpan,Flattened rice breakfast with sesame and coconut,flattened rice; sesame; coconut,veg,low,90,10,Assam
+Bora Saul,Sticky rice cooked soft,sticky rice; salt,veg,low,80,20,Assam
+Litti Chokha,Roasted wheat balls with sattu filling and mashed brinjal,wheat flour; gram flour; brinjal; potato,veg,medium,120,35,Bihar
+Sattu Paratha,Wheat flatbread stuffed with roasted gram flour,wheat flour; sattu; onion; spices,veg,medium,100,25,Bihar
+Champaran Mutton,Slow cooked mutton in earthen pot,mutton; onion; garlic; ginger,non-veg,high,320,60,Bihar
+Dalpuri,Fried bread stuffed with spiced chana dal,wheat flour; chana dal; cumin,veg,medium,90,25,Bihar
+Thekua,Crisp wheat cookie with coconut and cardamom,wheat flour; coconut; jaggery; cardamom,veg,low,60,30,Bihar
+Khaja,Flaky layered fried sweet,refined flour; sugar,veg,low,70,25,Bihar
+Ghugni,Dried peas curry with onion and tomato,dried peas; onion; tomato; spices,veg,high,90,30,Bihar
+Machhli Jhol,Light mustard fish curry,carp; mustard; tomato; turmeric,non-veg,high,260,30,Bihar
+Kadhi Bari,Gram flour dumplings in tangy kadhi,gram flour; onion; spices,veg,medium,120,30,Bihar
+Sattu Sharbat,Cooling roasted gram flour drink with cumin,sattu; cumin; lemon; salt,veg,medium,60,5,Bihar
+Chousela,Soft rice flour puri,rice flour; salt,veg,low,60,20,Chhattisgarh
+Farra,Steamed rice flour dumplings with spices,rice flour; chana dal; ginger,veg,low,90,30,Chhattisgarh
+Bafauri,Steamed chana dal dumplings with chutney,chana dal; ginger; green chilli,veg,medium,80,30,Chhattisgarh
+Aamat,Bastar mixed vegetable curry with bamboo shoot,bamboo shoot; pumpkin; tomato; spices,veg,medium,130,30,Chhattisgarh
+Bore Baasi,Soaked cooked rice with onion and chilli,cooked rice; onion; salt,veg,low,70,10,Chhattisgarh
+Dehrori,Deep fried rice flour sweet with sesame,rice flour; jaggery; sesame,veg,low,70,30,Chhattisgarh
+Kohda Sabzi,Simple pumpkin curry with onion and tomato,pumpkin; onion; tomato; spices,veg,low,100,25,Chhattisgarh
+Xacuti,Chicken in roasted coconut and poppy seed gravy,chicken; dry coconut; poppy seeds; red chilli,non-veg,high,280,40,Goa
+Vindaloo,Fiery pork curry with garlic and red chilli,pork; garlic; red chilli; vinegar,non-veg,high,300,45,Goa
+Sorpotel,Spiced pork and liver stew,pork; pork liver; onion; spices,non-veg,high,290,50,Goa
+Cafreal,Chicken marinated in green coriander mint paste,chicken; coriander; mint; green chilli,non-veg,high,270,30,Goa
+Recheado Fish,Mackerel stuffed with red recheado masala,mackerel; red chilli; garlic; tamarind,non-veg,high,320,30,Goa
+Ambot Tik,Sour and spicy tuna curry,tuna; red chilli; tamarind; garlic,non-veg,high,310,30,Goa
+Prawn Balchao,Tangy prawn pickle style masala,prawns; onion; red chilli; garlic,non-veg,high,340,35,Goa
+Bebinca,Layered coconut dessert,coconut; flour; sugar; nutmeg,veg,low,110,45,Goa
+Sannas,Steamed fluffy rice cakes with coconut,rice; coconut; yeast,veg,low,70,30,Goa
+Xit Kodi,Goan coconut fish curry with rice,sardine; coconut; tamarind; red chilli,non-veg,high,290,30,Goa
+Patoleo,Rice parcels with coconut filling steamed in leaf,rice; coconut; jaggery,veg,low,80,30,Goa
+Dhokla,Steamed fermented rice and chana dal cake,rice; chana dal; mustard; curry leaves,veg,medium,80,25,Gujarat
+Khandvi,Soft rolls of gram flour with mustard seeds,gram flour; mustard; coconut; coriander,veg,medium,90,30,Gujarat
+Undhiyu,Winter vegetable medley with fenugreek dumplings,sweet potato; raw banana; brinjal; peas,veg,medium,160,60,Gujarat
+Fafda,Crisp gram flour strips with ajwain,gram flour; ajwain; turmeric,veg,medium,70,20,Gujarat
+Handvo,Savoury baked lentil and rice cake with bottle gourd,rice; chana dal; urad dal; bottle gourd,veg,medium,100,40,Gujarat
+Sev Tameta,Tomato curry topped with crisp gram flour sev,tomato; gram flour sev; onion,veg,medium,110,20,Gujarat
+Dal Dhokli,Wheat dumplings simmered in toor dal,toor dal; wheat flour; peanuts; tamarind,veg,high,130,35,Gujarat
+Khakhra,Thin roasted wheat cracker with methi,wheat flour; fenugreek; cumin,veg,low,50,15,Gujarat
+Patra,Steamed colocasia leaf rolls with gram flour paste,colocasia leaves; gram flour; tamarind,veg,medium,90,35,Gujarat
+Muthia,Steamed fenugreek wheat dumplings,wheat flour; fenugreek leaves; gram flour,veg,medium,90,30,Gujarat
+Ringna Olo,Smoky roasted brinjal mash with garlic,brinjal; onion; garlic; green chilli,veg,low,120,25,Gujarat
+Bajri Rotlo,Thick pearl millet flatbread,pearl millet flour; salt,veg,low,70,20,Gujarat
+Lilva Kachori,Fried pastry with fresh pigeon pea filling,pigeon peas; refined flour; ginger; green chilli,veg,medium,70,35,Gujarat
+Kadhi Pakora,Tangy gram flour curry with fritters,gram flour; onion; spices,veg,medium,120,35,Haryana
+Methi Gajar,Carrot and fresh fenugreek stir fry,carrot; fenugreek leaves; garlic,veg,low,100,20,Haryana
+Bathua Raita,Boiled bathua greens with cumin and mustard,bathua; cumin; mustard,veg,low,80,10,Haryana
+Meethe Chawal,Sweet rice with raisins and cardamom,rice; raisins; cardamom; sugar,veg,low,90,30,Haryana
+Churma,Crumbled wheat sweet with nuts,wheat flour; almond; cardamom; sugar,veg,low,100,25,Haryana
+Bajra Aloo,Pearl millet and potato flatbread,pearl millet flour; potato; cumin,veg,low,80,20,Haryana
+Hara Cholia,Fresh green chickpea curry,green chickpeas; onion; tomato,veg,high,110,25,Haryana
+Siddu,Steamed wheat bread stuffed with walnut and poppy seeds,wheat flour; walnut; poppy seeds; yeast,veg,medium,100,40,Himachal Pradesh
+Chha Gosht,Mutton in spiced gram flour gravy,mutton; gram flour; onion; spices,non-veg,high,330,60,Himachal Pradesh
+Madra,Chickpeas simmered in spiced gravy,chickpeas; onion; cardamom; cinnamon,veg,medium,130,35,Himachal Pradesh
+Babru,Fried bread stuffed with black gram,wheat flour; black gram; spices,veg,medium,90,35,Himachal Pradesh
+Tudkiya Bhath,Vegetable pulao with urad dal,rice; urad dal; potato; peas,veg,medium,130,35,Himachal Pradesh
+Sepu Vadi,Urad dal dumplings in spinach gravy,urad dal; spinach; garlic; spices,veg,high,140,40,Himachal Pradesh
+Patande,Thin wheat pancakes,wheat flour; salt; water,veg,low,70,20,Himachal Pradesh
+Gucchi Pulao,Pulao with mountain mushrooms,rice; mushroom; onion; spices,veg,medium,380,40,Himachal Pradesh
+Dhuska,Fried rice and chana dal fritters,rice; chana dal; green chilli,veg,medium,70,25,Jharkhand
+Dal Pitha,Steamed rice dumplings with dal filling,rice flour; chana dal; cumin,veg,medium,90,30,Jharkhand
+Rugra Curry,Wild mushroom style curry with onion,mushroom; onion; garlic; spices,veg,medium,150,30,Jharkhand
+Bamboo Sabzi,Tender bamboo shoot with potato,bamboo shoot; potato; spices,veg,low,120,25,Jharkhand
+Munga Saag,Drumstick leaves stir fried with garlic,drumstick leaves; garlic; chilli,veg,low,90,20,Jharkhand
+Ol Chokha,Mashed elephant foot yam with mustard oil,yam; onion; mustard; green chilli,veg,low,90,20,Jharkhand
+Chilka Roti,Rice and chana dal flatbread,rice flour; chana dal,veg,medium,60,20,Jharkhand
+Bisibele Bath,Spicy rice and lentil one pot dish with vegetables,rice; toor dal; carrot; peas; tamarind,veg,medium,130,40,Karnataka
+Ragi Mudde,Steamed finger millet balls,ragi flour; water,veg,low,90,25,Karnataka
+Neer Dosa,Thin lacy rice and coconut dosa,rice; coconut; salt,veg,low,80,20,Karnataka
+Kori Rotti,Mangalore chicken curry with crisp rice wafers,chicken; coconut; rice; red chilli,non-veg,high,280,45,Karnataka
+Thatte Idli,Large flat plate idli,rice; urad dal; salt,veg,low,70,20,Karnataka
+Kosambari,Soaked moong dal and cucumber salad with coconut,moong dal; cucumber; coconut; lemon,veg,medium,70,10,Karnataka
+Benne Dosa,Crisp dosa from Davanagere,rice; urad dal; fenugreek,veg,low,90,20,Karnataka
+Vangi Bath,Brinjal rice with peanuts and coconut,rice; brinjal; peanuts; coconut,veg,low,120,30,Karnataka
+Pathrode,Rice batter rolled in colocasia leaves,colocasia leaves; rice; coconut; tamarind,veg,low,90,35,Karnataka
+Ennegayi,Small brinjals in peanut sesame coconut gravy,brinjal; peanuts; sesame; dry coconut,veg,medium,150,35,Karnataka
+Veg Sagu,Mixed vegetable curry in coconut gravy,potato; peas; carrot; coconut,veg,low,120,30,Karnataka
+Ghee Roast,Mangalore style chicken in red chilli masala,chicken; red chilli; garlic; tamarind,non-veg,high,300,35,Karnataka
+Anjal Fry,Crisp seer fish fry with red masala,seer fish; red chilli; tamarind; garlic,non-veg,high,380,25,Karnataka
+Mysore Pak,Rich gram flour sweet,gram flour; sugar,veg,low,90,30,Karnataka
+Appam,Lacy rice and coconut pancake,rice; coconut; yeast,veg,low,70,25,Kerala
+Puttu,Steamed rice and coconut cylinders,rice; coconut; salt,veg,low,80,20,Kerala
+Kadala Curry,Black chickpea curry with coconut,black chickpeas; coconut; onion; spices,veg,high,110,30,Kerala
+Avial,Mixed vegetables in coconut gravy,drumstick; raw banana; yam; coconut; carrot,veg,medium,140,30,Kerala
+Cabbage Thoran,Cabbage stir fried with coconut,cabbage; coconut; mustard; curry leaves,veg,low,100,20,Kerala
+Karimeen Pollichathu,Pearl spot fish wrapped in banana leaf,karimeen; onion; tomato; tamarind,non-veg,high,380,35,Kerala
+Fish Moilee,Fish in mild coconut milk gravy,pomfret; coconut; onion; green chilli,non-veg,high,330,30,Kerala
+Malabar Parotta,Flaky layered flatbread,refined flour; oil,veg,low,90,25,Kerala
+Veg Stew,Mild vegetable stew in coconut milk,potato; carrot; peas; coconut; onion,veg,low,130,30,Kerala
+Erissery,Pumpkin and cowpea in roasted coconut,pumpkin; cowpea; coconut,veg,medium,120,30,Kerala
+Pazham Pori,Banana fritters in batter,ripe banana; refined flour,veg,low,50,20,Kerala
+Unniyappam,Sweet rice and banana fritters,rice; banana; coconut; jaggery,veg,low,60,30,Kerala
+Meen Curry,Kerala red fish curry with kudampuli,sardine; coconut; tamarind; red chilli,non-veg,high,300,35,Kerala
+Chemmeen Roast,Prawn roast with onion and coconut,prawns; onion; coconut; curry leaves,non-veg,high,360,30,Kerala
+Idiyappam,String hoppers made from rice flour,rice flour; salt,veg,low,80,20,Kerala
+Kappa Meen,Tapioca with spicy fish curry,tapioca; sardine; coconut; red chilli,non-veg,high,260,40,Kerala
+Ela Ada,Rice parcels with coconut filling in banana leaf,rice; coconut; jaggery,veg,low,70,30,Kerala
+Ulli Theeyal,Small onions in roasted coconut and tamarind,small onion; coconut; tamarind,veg,low,110,25,Kerala
+Indori Poha,"Flattened rice with peanuts, sev and lemon",flattened rice; peanuts; onion; turmeric,veg,low,60,15,Madhya Pradesh
+Bhutte Kees,Grated corn cooked with mustard and green chilli,tender corn; mustard; green chilli; coconut,veg,low,80,20,Madhya Pradesh
+Dal Bafla,Baked wheat balls served with toor dal,wheat flour; toor dal; garlic; cumin,veg,medium,130,45,Madhya Pradesh
+Garadu,Fried yam chunks with chaat masala,yam; oil; spices,veg,low,90,20,Madhya Pradesh
+Bhopali Korma,Rich mutton korma with onion and poppy seed paste,mutton; onion; poppy seeds; almond,non-veg,high,320,50,Madhya Pradesh
+Khopra Pak,Dry coconut sweet with cardamom,dry coconut; sugar; cardamom,veg,low,80,20,Madhya Pradesh
+Chakki Shak,Steamed wheat gluten slices in spiced gravy,wheat flour; yogurt; spices,veg,medium,110,35,Madhya Pradesh
+Jhabua Chicken,Black kadaknath chicken curry from Jhabua,kadaknath chicken; onion; garlic; spices,non-veg,high,360,45,Madhya Pradesh
+Moong Kachori,Fried pastry with spiced moong dal filling,refined flour; moong dal; fennel,veg,medium,60,30,Madhya Pradesh
+Misal Pav,Spicy sprouted moth bean curry with bread,moth beans; onion; tomato; bread,veg,high,110,30,Maharashtra
+Vada Pav,Potato fritter in a bun with chutney,potato; gram flour; bread; garlic,veg,low,50,20,Maharashtra
+Pav Bhaji,Mashed vegetable curry with buttered bread,potato; cauliflower; peas; tomato,veg,low,100,25,Maharashtra
+Puran Poli,Sweet flatbread stuffed with chana dal and jaggery,chana dal; wheat flour; jaggery; cardamom,veg,medium,80,40,Maharashtra
+Sabudana Khichdi,Sago pearls with peanuts and potato,sago; peanuts; potato; cumin,veg,low,90,20,Maharashtra
+Thalipeeth,Multigrain flatbread with onion and spices,jowar; bajra; chana dal; onion,veg,medium,90,25,Maharashtra
+Kothimbir Vadi,Steamed and fried coriander gram flour squares,coriander; gram flour; sesame,veg,medium,80,30,Maharashtra
+Zunka Bhakar,Dry gram flour curry with jowar flatbread,gram flour; onion; jowar flour,veg,medium,100,20,Maharashtra
+Bharli Vangi,Stuffed brinjal in peanut coconut masala,brinjal; peanuts; dry coconut; spices,veg,medium,150,30,Maharashtra
+Varan Bhaat,Plain toor dal with steamed rice,toor dal; rice; turmeric,veg,high,110,25,Maharashtra
+Kolhapuri Chicken,Very spicy chicken curry with dry coconut,chicken; dry coconut; red chilli; poppy seeds,non-veg,high,290,40,Maharashtra
+Pandhra Rassa,White mutton curry with coconut,mutton; coconut; poppy seeds; ginger,non-veg,high,340,50,Maharashtra
+Bombil Fry,Crisp fried Bombay duck,bombay duck; rice flour; turmeric; red chilli,non-veg,high,260,20,Maharashtra
+Surmai Fry,Seer fish slices with rava coating,seer fish; semolina; red chilli,non-veg,high,380,25,Maharashtra
+Sol Kadhi,Pink coconut milk and kokum drink,coconut; kokum; garlic; cumin,veg,low,70,10,Maharashtra
+Modak,Steamed sweet dumplings filled with coconut,rice flour; coconut; jaggery,veg,low,70,35,Maharashtra
+Kanda Poha,"Flattened rice with onion, mustard and curry leaves",flattened rice; onion; mustard; curry leaves,veg,low,60,15,Maharashtra
+Matki Usal,Sprouted moth bean curry with coconut,moth beans; onion; dry coconut,veg,high,110,25,Maharashtra
+Aamras,Fresh ripe mango pulp with cardamom,ripe mango; cardamom,veg,low,90,5,Maharashtra
+Eromba,Mashed vegetables with fermented fish and chilli,potato; french beans; fermented fish; green chilli,non-veg,medium,150,25,Manipur
+Singju,Cabbage and herb salad with roasted chilli,cabbage; coriander; green chilli; sesame,veg,low,80,15,Manipur
+Chakhao Kheer,Black rice pudding with cardamom,black rice; sugar; cardamom,veg,low,120,40,Manipur
+Nga Thongba,Manipuri fish curry with onion,carp; onion; ginger; chilli,non-veg,high,280,30,Manipur
+Ooti,Yellow dried peas curry with potato,dried peas; potato; ginger,veg,high,100,25,Manipur
+Kangsoi,Light vegetable stew with chilli and herbs,potato; french beans; carrot; onion,veg,low,110,25,Manipur
+Morok Metpa,Fiery roasted chilli chutney,green chilli; onion; fermented fish,non-veg,low,50,10,Manipur
+Jadoh,Khasi rice cooked with pork,rice; pork; onion; ginger,non-veg,high,240,40,Meghalaya
+Doh Khlieh,Boiled pork salad with onion and chilli,pork; onion; ginger; green chilli,non-veg,high,260,25,Meghalaya
+Tungrymbai,Fermented soybean cooked with pork,soybean; pork; onion; ginger,non-veg,high,220,35,Meghalaya
+Dohneiiong,Pork in black sesame gravy,pork; black sesame; onion; ginger,non-veg,high,280,40,Meghalaya
+Pumaloi,Steamed rice powder,rice powder; salt,veg,low,60,25,Meghalaya
+Pukhlein,Sweet rice pancake with sesame,rice; sesame; jaggery,veg,low,60,25,Meghalaya
+Nakham Bitchi,Dried fish soup with spices,dried fish; ginger; green chilli,non-veg,high,220,30,Meghalaya
+Mizo Bai,Boiled vegetable stew with greens,mustard greens; pumpkin; fermented soybean,veg,low,110,30,Mizoram
+Vawksa Rep,Smoked pork cooked with bamboo shoot,pork; bamboo shoot; chilli,non-veg,high,290,45,Mizoram
+Sawhchiar,Rice porridge with chicken,rice; chicken; ginger,non-veg,medium,150,30,Mizoram
+Koat Pitha,Fried banana and rice cake,ripe banana; rice flour,veg,low,60,20,Mizoram
+Chhum Han,Steamed greens with chilli and garlic,mustard greens; garlic; chilli,veg,low,90,20,Mizoram
+Bekang Chutney,Fermented soybean chutney with chilli,fermented soybean; green chilli; garlic,veg,medium,60,10,Mizoram
+Axone Pork,Pork cooked with fermented soybean and chilli,pork; fermented soybean; green chilli; ginger,non-veg,high,270,40,Nagaland
+Galho,Naga rice and greens khichdi,rice; mustard greens; pumpkin,veg,medium,110,30,Nagaland
+Anishi Pork,Pork cooked with fermented colocasia leaves,pork; colocasia leaves; chilli,non-veg,high,260,35,Nagaland
+Naga Chutney,"Fiery chilli, garlic and ginger chutney",green chilli; garlic; ginger,veg,low,60,10,Nagaland
+Naga Stew,Chicken and greens boiled stew,chicken; mustard greens; ginger,non-veg,medium,170,35,Nagaland
+Sticky Rice,Steamed sticky rice with salt,sticky rice; salt,veg,low,70,25,Nagaland
+Dalma,Toor dal cooked with vegetables and coconut,toor dal; pumpkin; raw banana; coconut,veg,high,120,30,Odisha
+Pakhala Bhata,Fermented rice water dish with onion,cooked rice; water; onion,veg,low,70,10,Odisha
+Machha Besara,Fish in mustard and garlic paste,carp; mustard; garlic; turmeric,non-veg,high,290,30,Odisha
+Santula,Light steamed vegetable curry with garlic,potato; pumpkin; brinjal; garlic,veg,low,100,25,Odisha
+Ghanta Tarkari,Chickpea and vegetable curry,chickpeas; potato; brinjal; coconut,veg,medium,110,25,Odisha
+Dahibara Aloodum,Lentil fritters with potato curry,urad dal; potato; onion,veg,medium,100,30,Odisha
+Chingudi Besara,Prawns in mustard gravy,prawns; mustard; garlic; green chilli,non-veg,high,350,35,Odisha
+Enduri Pitha,Turmeric leaf steamed rice cake,rice; urad dal; coconut,veg,medium,70,30,Odisha
+Mudhi Mansa,Puffed rice with spicy mutton,puffed rice; mutton; onion; ginger,non-veg,high,300,50,Odisha
+Kakara Pitha,Fried wheat sweet with coconut,wheat flour; coconut; jaggery,veg,low,70,30,Odisha
+Badi Chura,Fried urad dal nuggets crushed with onion,urad dal; onion; garlic; green chilli,veg,medium,80,20,Odisha
+Khechudi,Rice and moong dal porridge,rice; moong dal; ginger; cumin,veg,medium,110,30,Odisha
+Sarson Saag,Slow cooked mustard greens with makki roti,mustard greens; spinach; ginger; garlic,veg,medium,150,35,Punjab
+Makki Roti,Flatbread of maize flour,maize flour; salt,veg,low,70,25,Punjab
+Amritsari Kulcha,Stuffed potato kulcha from Amritsar,refined flour; potato; onion; coriander,veg,medium,110,30,Punjab
+Amritsari Fish,Gram flour crisp fried fish with ajwain,carp; gram flour; ajwain; ginger,non-veg,high,320,25,Punjab
+Dal Makhani,Creamy black lentils and kidney beans,black gram; kidney beans; tomato; butter,veg,high,170,45,Punjab
+Rajma Masala,Kidney beans in onion tomato gravy,kidney beans; onion; tomato; spices,veg,high,150,35,Punjab
+Tandoori Chicken,Clay oven roasted chicken with spices,chicken; ginger; garlic; red chilli,non-veg,high,290,40,Punjab
+Pindi Chole,Dry spiced chickpeas with tea masala,chickpeas; onion; tomato; pomegranate seeds,veg,high,120,35,Punjab
+Aloo Paratha,Wheat flatbread stuffed with spiced potato,wheat flour; potato; coriander; cumin,veg,medium,100,25,Punjab
+Gobi Paratha,Wheat flatbread stuffed with spiced cauliflower,wheat flour; cauliflower; coriander,veg,medium,100,25,Punjab
+Pinni,Wheat flour sweet with nuts,wheat flour; almond; cardamom; sugar,veg,low,80,20,Punjab
+Baingan Bharta,Smoky roasted brinjal with onion and tomato,brinjal; onion; tomato; garlic,veg,low,120,30,Punjab
+Dal Baati,Baked wheat balls with panchmel dal,wheat flour; toor dal; chana dal; ghee,veg,medium,160,50,Rajasthan
+Gatte Sabzi,Gram flour dumplings in spicy gravy,gram flour; tomato; onion; spices,veg,medium,130,35,Rajasthan
+Ker Sangri,Desert beans and berries stir fry,desert beans; ker berries; red chilli,veg,low,150,30,Rajasthan
+Laal Maas,Fiery red mutton curry,mutton; red chilli; garlic; onion,non-veg,high,350,60,Rajasthan
+Pyaz Kachori,Fried pastry with spiced onion filling,refined flour; onion; fennel,veg,low,60,30,Rajasthan
+Mirchi Vada,Large green chilli stuffed with potato and fried,green chilli; potato; gram flour,veg,low,70,25,Rajasthan
+Ghevar,Disc shaped crisp sweet,refined flour; sugar; cardamom,veg,low,90,35,Rajasthan
+Panchmel Dal,Five lentil dal with tadka,toor dal; chana dal; moong dal; urad dal; masoor,veg,high,150,40,Rajasthan
+Bikaneri Bhujia,Crunchy moth bean flour snack,moth bean flour; gram flour; spices,veg,medium,60,20,Rajasthan
+Safed Maas,White mutton curry with almond and poppy,mutton; onion; poppy seeds; almond,non-veg,high,360,60,Rajasthan
+Mangodi Sabzi,Dried moong dal dumplings in tomato gravy,moong dal; tomato; onion,veg,high,120,25,Rajasthan
+Thukpa,Noodle soup with chicken and vegetables,noodles; chicken; carrot; cabbage,non-veg,medium,150,25,Sikkim
+Veg Momo,Steamed dumplings with cabbage and carrot,refined flour; cabbage; carrot; onion,veg,low,110,25,Sikkim
+Chicken Momo,Steamed dumplings with minced chicken,refined flour; chicken; onion; ginger,non-veg,medium,150,25,Sikkim
+Gundruk Soup,Fermented leafy greens soup,fermented greens; garlic; ginger; tomato,veg,low,90,20,Sikkim
+Sel Roti,Ring shaped sweet rice bread,rice flour; sugar; cardamom,veg,low,60,25,Sikkim
+Phagshapa,Pork strips with radish and dried chilli,pork; radish; dried chilli,non-veg,high,280,35,Sikkim
+Kinema Curry,Fermented soybean curry,fermented soybean; onion; tomato,veg,high,130,25,Sikkim
+Sisnu Soup,Nettle leaf soup,nettle leaves; garlic; ginger,veg,low,80,20,Sikkim
+Idli,Steamed fermented rice and urad cakes,rice; urad dal; salt,veg,low,60,20,Tamil Nadu
+Medu Vada,Crisp fried urad dal doughnut,urad dal; pepper; curry leaves; ginger,veg,medium,60,20,Tamil Nadu
+Ven Pongal,Rice and moong dal with pepper and cumin,rice; moong dal; pepper; cumin,veg,medium,90,25,Tamil Nadu
+Chettinad Chicken,Pepper chicken with roasted spices,chicken; pepper; dry coconut; red chilli,non-veg,high,290,40,Tamil Nadu
+Vatha Kuzhambu,Sundried tamarind gravy,tamarind; brinjal; garlic; fenugreek,veg,low,120,30,Tamil Nadu
+Rasam,Peppery tamarind and tomato soup,tamarind; tomato; pepper; cumin; garlic,veg,low,70,15,Tamil Nadu
+Lemon Rice,Tangy rice with peanuts and curry leaves,rice; lemon; peanuts; curry leaves,veg,low,80,15,Tamil Nadu
+Puliyodarai,Temple style tamarind rice,rice; tamarind; peanuts; sesame,veg,low,90,20,Tamil Nadu
+Kothu Parotta,Shredded parotta stir fried with egg,refined flour; egg; onion; spices,non-veg,medium,150,25,Tamil Nadu
+Sundal,Boiled chickpeas tempered with coconut,chickpeas; coconut; curry leaves; mustard,veg,high,60,15,Tamil Nadu
+Paniyaram,Small fried rice and urad dumplings,rice; urad dal; onion,veg,low,70,20,Tamil Nadu
+Keerai Masiyal,Mashed greens with moong dal,amaranth leaves; moong dal; garlic,veg,medium,90,20,Tamil Nadu
+Mutton Chukka,Dry roasted pepper mutton,mutton; onion; pepper; coconut,non-veg,high,320,45,Tamil Nadu
+Meen Kuzhambu,Tamarind fish curry,sardine; tamarind; onion; tomato,non-veg,high,280,35,Tamil Nadu
+Nandu Masala,Crab cooked in onion tomato masala,crab; onion; tomato; pepper,non-veg,high,420,40,Tamil Nadu
+Kola Urundai,Spiced fried meat balls,minced chicken; coconut; fennel; ginger,non-veg,high,260,30,Tamil Nadu
+Adai,Thick pancake from rice and mixed dals,rice; toor dal; chana dal; urad dal,veg,high,90,25,Tamil Nadu
+Murukku,Crunchy spiral snack of rice and urad flour,rice flour; urad dal; sesame,veg,low,60,30,Tamil Nadu
+Vazhaipoo Vadai,Banana flower and dal fritters,banana flower; chana dal; onion,veg,medium,70,25,Tamil Nadu
+Kambu Koozh,Pearl millet porridge,pearl millet; water; salt,veg,low,60,20,Tamil Nadu
+Wahan Mosdeng,Pork cooked with bamboo shoot,pork; bamboo shoot; chilli,non-veg,high,270,40,Tripura
+Gudok,Mixed vegetable and bamboo stew,brinjal; potato; bamboo shoot,veg,low,100,25,Tripura
+Chakhwi,Steamed vegetable and herb mix,beans; potato; ginger,veg,low,90,25,Tripura
+Awandru,Steamed rice cake,rice flour; salt,veg,low,70,30,Tripura
+Berma Paste,Fermented fish and chilli paste,fermented fish; green chilli; garlic,non-veg,medium,60,10,Tripura
+Mosdeng Serma,Hot chilli and dry fish chutney,dry fish; green chilli; garlic,non-veg,medium,60,10,Tripura
+Awadhi Biryani,Slow cooked Lucknow style mutton biryani,mutton; rice; onion; saffron,non-veg,high,340,60,Uttar Pradesh
+Galouti Kebab,Melt in mouth minced mutton kebab,mutton; poppy seeds; spices,non-veg,high,320,40,Uttar Pradesh
+Shami Kebab,Mutton and chana dal patties,mutton; chana dal; onion; spices,non-veg,high,300,40,Uttar Pradesh
+Kakori Kebab,Silky skewered mutton kebab,mutton; ginger; garlic; spices,non-veg,high,320,40,Uttar Pradesh
+Bedmi Puri,Fried bread with urad dal,wheat flour; urad dal; fennel,veg,medium,90,30,Uttar Pradesh
+Kachori Sabzi,Fried lentil pastry with potato curry,refined flour; urad dal; potato; tomato,veg,medium,90,30,Uttar Pradesh
+Tehri,Spiced vegetable and rice pulao,rice; potato; peas; spices,veg,low,110,25,Uttar Pradesh
+Tamatar Chaat,Banarasi tomato chaat,tomato; potato; chickpeas; spices,veg,low,80,15,Uttar Pradesh
+Aloo Tikki,Crisp potato patties with chutney,potato; chana dal; spices,veg,low,60,20,Uttar Pradesh
+Petha,Translucent ash gourd sweet of Agra,ash gourd; sugar,veg,low,60,20,Uttar Pradesh
+Mutton Korma,Awadhi mutton in onion cashew gravy,mutton; onion; cashew; spices,non-veg,high,320,50,Uttar Pradesh
+Nihari Gosht,Overnight slow cooked mutton stew,mutton; wheat flour; ginger; spices,non-veg,high,340,60,Uttar Pradesh
+Gujiya,Fried sweet dumpling with coconut and nuts,refined flour; coconut; almond,veg,low,60,35,Uttar Pradesh
+Kafuli,Thick spinach and fenugreek curry,spinach; fenugreek leaves; rice flour,veg,medium,110,30,Uttarakhand
+Aloo Gutuk,Boiled potatoes tossed with red chilli and coriander,potato; red chilli; coriander; mustard,veg,low,80,20,Uttarakhand
+Chainsoo,Roasted black gram curry,black gram; garlic; spices,veg,high,120,40,Uttarakhand
+Bhatt Churkani,Black soybean curry thickened with rice flour,black soybean; rice flour; garlic; cumin,veg,high,130,40,Uttarakhand
+Mandua Roti,Finger millet flatbread,finger millet flour; water,veg,low,70,20,Uttarakhand
+Gahat Dal,Horse gram dal with garlic,horse gram; garlic; cumin,veg,high,120,40,Uttarakhand
+Arsa,Sweet rice and jaggery fritters,rice; jaggery; fennel,veg,low,70,30,Uttarakhand
+Gulgula,Sweet fried wheat fritters,wheat flour; jaggery; fennel,veg,low,50,20,Uttarakhand
+Thechwani,Crushed radish and potato curry,radish; potato; spices,veg,low,90,25,Uttarakhand
+Shorshe Ilish,Hilsa in mustard sauce,hilsa; mustard; green chilli,non-veg,high,420,35,West Bengal
+Macher Jhol,Everyday Bengali fish curry with potato,carp; potato; tomato; turmeric,non-veg,high,260,30,West Bengal
+Kosha Mangsho,Slow cooked dry mutton curry,mutton; onion; ginger; garlic,non-veg,high,340,60,West Bengal
+Chingri Malai,Prawns in coconut milk gravy,prawns; coconut; onion; cardamom,non-veg,high,380,35,West Bengal
+Aloo Posto,Potato in poppy seed paste,potato; poppy seeds; green chilli,veg,low,120,20,West Bengal
+Shukto,Bitter and sweet vegetable stew,bitter gourd; raw banana; drumstick; brinjal,veg,low,130,30,West Bengal
+Luchi,Puffed fried refined flour bread,refined flour; oil,veg,low,60,20,West Bengal
+Cholar Dal,Chana dal with coconut and whole spices,chana dal; dry coconut; cardamom; cinnamon,veg,high,130,30,West Bengal
+Mochar Ghonto,Banana flower with potato and coconut,banana flower; potato; coconut,veg,low,120,35,West Bengal
+Begun Bhaja,Crisp fried brinjal slices,brinjal; turmeric; oil,veg,low,90,15,West Bengal
+Kolkata Biryani,Biryani with potato and egg,rice; chicken; potato; egg,non-veg,high,300,60,West Bengal
+Kathi Roll,Egg wrapped flatbread with onion,refined flour; egg; onion; green chilli,non-veg,medium,120,20,West Bengal
+Jhal Muri,Spicy puffed rice street snack,puffed rice; onion; peanuts; cucumber,veg,low,40,5,West Bengal
+Dhokar Dalna,Lentil cakes in ginger gravy,chana dal; potato; ginger; cumin,veg,high,140,35,West Bengal
+Chorchori,Mixed vegetable stir curry with mustard,potato; pumpkin; brinjal; mustard,veg,low,110,25,West Bengal
+Daab Chingri,Prawns cooked in tender coconut,prawns; coconut; mustard; green chilli,non-veg,high,420,40,West Bengal
+Puchka,Hollow crisp shells with spiced water,semolina; potato; chickpeas; tamarind,veg,low,60,20,West Bengal
+Squid Masala,Squid cooked in onion tomato masala,squid; onion; tomato; chilli,non-veg,high,320,30,Andaman and Nicobar Islands
+Tuna Fry,Tuna steaks fried with red chilli,tuna; red chilli; turmeric,non-veg,high,300,25,Andaman and Nicobar Islands
+Crab Curry,Crab in coconut gravy,crab; coconut; onion; chilli,non-veg,high,420,40,Andaman and Nicobar Islands
+Coconut Rice,Rice cooked with fresh coconut,rice; coconut; salt,veg,low,90,25,Andaman and Nicobar Islands
+Grilled Snapper,Whole snapper grilled with garlic and lime,snapper; garlic; lime; pepper,non-veg,high,360,30,Andaman and Nicobar Islands
+Prawn Masala,Prawns in spicy masala,prawns; onion; tomato; chilli,non-veg,high,340,30,Andaman and Nicobar Islands
+Chole Kulche,Spiced chickpeas with soft kulcha,chickpeas; refined flour; onion; tomato,veg,high,110,25,Chandigarh
+Tawa Chicken,Chicken fried on iron griddle with onion and tomato,chicken; onion; tomato; ginger,non-veg,high,280,30,Chandigarh
+Matar Kulcha,Street style dried pea curry with kulcha,dried peas; refined flour; onion; tamarind,veg,high,100,25,Chandigarh
+Soya Chaap,Soya sticks grilled with masala,soya chaap; onion; spices,veg,high,130,30,Chandigarh
+Chicken Tikka,Boneless chicken grilled in tandoor,chicken breast; ginger; garlic; red chilli,non-veg,high,300,30,Chandigarh
+Lachha Paratha,Layered whole wheat flatbread,wheat flour; oil,veg,low,90,25,Chandigarh
+Nagli Roti,Warli finger millet flatbread,finger millet flour; salt,veg,low,60,20,Dadra and Nagar Haveli and Daman and Diu
+Ambil,Fermented millet porridge of the Warli,finger millet flour; water; salt,veg,low,60,20,Dadra and Nagar Haveli and Daman and Diu
+Prawn Curry,Coastal prawn curry with coconut,prawns; coconut; tomato; tamarind,non-veg,high,330,30,Dadra and Nagar Haveli and Daman and Diu
+Pomfret Fry,Daman style crisp pomfret,pomfret; red chilli; semolina,non-veg,high,360,25,Dadra and Nagar Haveli and Daman and Diu
+Bombay Duck,Bombay duck cooked in coconut and tamarind gravy,bombay duck; coconut; tamarind,non-veg,high,260,25,Dadra and Nagar Haveli and Daman and Diu
+Fish Cutlet,Fish and potato cutlet,mackerel; potato; onion; green chilli,non-veg,high,180,25,Dadra and Nagar Haveli and Daman and Diu
+Aloo Chaat,Fried potato cubes with chaat masala and tamarind,potato; tamarind; chaat masala,veg,low,70,15,Delhi
+Raj Kachori,Giant crisp shell with chickpeas and chutneys,refined flour; moong; potato; tamarind,veg,medium,90,30,Delhi
+Karahi Chicken,Chicken cooked in iron wok with tomato and ginger,chicken; tomato; ginger; green chilli,non-veg,high,300,35,Delhi
+Seekh Kebab,Minced mutton skewers grilled in tandoor,mutton; onion; ginger; garlic,non-veg,high,280,30,Delhi
+Chicken Changezi,Rich chicken curry from Old Delhi,chicken; onion; tomato; cashew,non-veg,high,300,40,Delhi
+Gajar Halwa,Slow cooked carrot dessert with nuts,carrot; almond; raisins; cardamom,veg,low,100,40,Delhi
+Moong Halwa,Rich moong dal dessert with almonds,moong dal; almond; cardamom,veg,medium,100,40,Delhi
+Aloo Puri,Fried wheat bread with potato curry,wheat flour; potato; cumin,veg,low,90,25,Delhi
+Chana Masala,Chickpeas in tangy onion tomato gravy,chickpeas; onion; tomato; spices,veg,high,120,30,Delhi
+Aloo Gobi,Dry potato and cauliflower curry,potato; cauliflower; ginger; cumin,veg,low,110,25,Delhi
+Rogan Josh,Kashmiri red mutton curry with fennel and ginger,mutton; red chilli; ginger; fennel,non-veg,high,350,60,Jammu and Kashmir
+Yakhni,Mutton in spiced yogurt gravy,mutton; yogurt; cardamom; fennel,non-veg,high,320,50,Jammu and Kashmir
+Dum Aloo,Baby potatoes in Kashmiri gravy,potato; red chilli; ginger; fennel,veg,low,150,40,Jammu and Kashmir
+Haak Saag,Kashmiri collard greens with mustard oil,collard greens; red chilli; garlic,veg,low,100,25,Jammu and Kashmir
+Nadru Yakhni,Lotus stem in yogurt gravy,lotus stem; yogurt; fennel; cardamom,veg,low,170,35,Jammu and Kashmir
+Gushtaba,Pounded mutton balls in yogurt gravy,mutton; cardamom; yogurt,non-veg,high,380,60,Jammu and Kashmir
+Rista,Mutton meatballs in red gravy,mutton; red chilli; fennel; ginger,non-veg,high,360,60,Jammu and Kashmir
+Kashmiri Pulao,Sweet pulao with saffron and dried fruits,rice; almond; raisins; cardamom,veg,low,160,35,Jammu and Kashmir
+Kahwa,Green tea with almonds and cardamom,green tea; almond; cardamom; saffron,veg,low,70,10,Jammu and Kashmir
+Shufta,Dessert of dried fruits and nuts,almond; raisins; dates; walnut,veg,low,120,15,Jammu and Kashmir
+Tabak Maaz,Fried lamb ribs,lamb ribs; fennel; cardamom,non-veg,high,380,45,Jammu and Kashmir
+Skyu,Ladakhi pasta stew with root vegetables,wheat flour; potato; radish; turnip,veg,low,120,35,Ladakh
+Chutagi,Ladakhi pasta in vegetable broth,wheat flour; vegetables,veg,low,110,30,Ladakh
+Thenthuk,Hand pulled noodle soup,wheat flour; radish; spinach,veg,low,110,25,Ladakh
+Paba,Barley and pea flour porridge,barley flour; pea flour,veg,medium,80,20,Ladakh
+Khambir,Ladakhi leavened whole wheat bread,whole wheat flour; yeast,veg,low,60,30,Ladakh
+Tingmo,Steamed bun of whole wheat,whole wheat flour; yeast,veg,low,60,30,Ladakh
+Apricot Soup,Dried apricot soup with cardamom,dried apricot; sugar; cardamom,veg,low,90,20,Ladakh
+Coconut Tuna,Tuna cooked in coconut and tamarind gravy,tuna; coconut; tamarind; red chilli,non-veg,high,300,30,Lakshadweep
+Squid Fry,Crisp fried squid rings,squid; onion; red chilli,non-veg,high,300,25,Lakshadweep
+Coconut Halwa,Sweet coconut halwa,coconut; rice flour; sugar,veg,low,80,40,Lakshadweep
+Tuna Cutlet,Fried tuna and potato cutlet,tuna; potato; onion; green chilli,non-veg,high,160,25,Lakshadweep
+Pathiri,Thin rice flour flatbread,rice flour; coconut,veg,low,60,20,Lakshadweep
+Coconut Chutney,Fresh coconut chutney with green chilli,coconut; green chilli; ginger,veg,low,40,10,Lakshadweep
+Karaikal Fish,Coastal fish curry with coconut and tamarind,mackerel; coconut; tamarind; red chilli,non-veg,high,300,30,Puducherry
+Kathirikai Gotsu,Brinjal and tamarind gotsu eaten with pongal,brinjal; tamarind; garlic; mustard,veg,low,110,25,Puducherry
+Prawn Thokku,Thick spicy prawn masala,prawns; red chilli; garlic; onion,non-veg,high,340,30,Puducherry
+Sakkarai Pongal,Sweet pongal with moong dal and cashew,rice; moong dal; cashew; raisins,veg,medium,80,30,Puducherry
+Veg Kurma,Vegetable kurma in coconut gravy,potato; peas; carrot; coconut,veg,low,120,30,Puducherry
+Pondy Chicken,Pepper chicken fry with curry leaves,chicken; pepper; curry leaves; onion,non-veg,high,280,30,Puducherry

@@ -1,0 +1,328 @@
+/* Restaurant Food Assistant
+   Palette: deep ocean blue, muted turquoise, soft aqua, powder blue, muted amber */
+
+:root {
+  --primary: #164B68;
+  --primary-hover: #113c54;
+  --secondary: #55B9B8;
+  --bg: #D8EDEF;
+  --bg-alt: #B9DCEB;
+  --surface: #F8FAF9;
+  --accent: #D5A85C;
+  --text: #183344;
+  --text-muted: #71838C;
+  --border: #DCE6E8;
+
+  --radius-card: 18px;
+  --radius-bubble: 14px;
+  --radius-control: 12px;
+}
+
+* { box-sizing: border-box; }
+
+html { background: var(--bg); }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+  padding: 24px 16px;
+  color: var(--text);
+  font-family: "Inter", "Segoe UI", system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+
+  /* soft, uneven colour fields: cyan top-left, turquoise right,
+     powder blue along the bottom, a faint lavender in the lower-left */
+  background-color: var(--bg);
+  background-image:
+    radial-gradient(60% 55% at 8% 6%,    rgba(150, 226, 236, 0.85) 0%, rgba(150, 226, 236, 0) 70%),
+    radial-gradient(48% 62% at 94% 38%,  rgba(85, 185, 184, 0.45)  0%, rgba(85, 185, 184, 0) 72%),
+    radial-gradient(75% 48% at 42% 108%, rgba(185, 220, 235, 0.95) 0%, rgba(185, 220, 235, 0) 70%),
+    radial-gradient(34% 40% at 0% 82%,   rgba(200, 190, 236, 0.30) 0%, rgba(200, 190, 236, 0) 75%);
+  background-attachment: fixed;
+}
+
+
+/* ---------- decoration: India map watermark ---------- */
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: url("img/india-map.svg") no-repeat;
+  background-position: 66% 50%;          /* slightly right of centre */
+  background-size: auto min(120vh, 900px);
+  opacity: 0.055;
+  filter: blur(1.5px);
+}
+
+/* ---------- decoration: floating dishes ----------
+   Sit outside the card (the card is 700px wide and centred),
+   so they only show when there is free space on both sides. */
+
+.food-layer {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.food {
+  position: absolute;
+  height: auto;
+  filter: drop-shadow(0 10px 14px rgba(22, 75, 104, 0.22));
+  animation: drift 16s ease-in-out infinite;
+  will-change: transform;
+}
+
+/* distance from the centre line = half the card (350px) + a gap */
+.food--dosa    { width: 150px; top: 17%; right: calc(50% + 372px); animation-delay: -3s; }
+.food--thali   { width: 132px; top: 30%; left:  calc(50% + 378px); animation-delay: -9s;  animation-duration: 19s; }
+.food--biryani { width: 124px; bottom: 14%; right: calc(50% + 366px); animation-delay: -13s; animation-duration: 22s; }
+
+@keyframes drift {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-9px); }
+}
+
+/* not enough room beside the card: hide the dishes */
+@media (max-width: 1100px) {
+  .food-layer { display: none; }
+}
+
+/* ---------- card ---------- */
+
+.card {
+  width: 100%;
+  max-width: 700px;
+  height: min(720px, calc(100vh - 48px));
+  height: min(720px, calc(100dvh - 48px));
+  display: flex;
+  flex-direction: column;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  box-shadow:
+    0 1px 2px rgba(22, 75, 104, 0.06),
+    0 12px 32px -8px rgba(22, 75, 104, 0.18),
+    0 32px 64px -24px rgba(22, 75, 104, 0.20);
+}
+
+/* ---------- header ---------- */
+
+.top {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 18px 24px;
+  background: var(--primary);
+  color: #fff;
+}
+
+.top-icon {
+  flex: none;
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.10);
+  color: var(--accent);
+}
+
+.top-icon svg { width: 24px; height: 24px; }
+
+.top-text { min-width: 0; }
+
+h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 650;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+
+.hint {
+  margin: 2px 0 0;
+  font-size: 0.82rem;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.76);
+}
+
+/* ---------- messages ---------- */
+
+#log {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 22px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  scroll-behavior: smooth;
+}
+
+.me, .bot { display: flex; }
+.me  { justify-content: flex-end; }
+.bot { justify-content: flex-start; }
+
+.me span,
+.bot span {
+  display: inline-block;
+  max-width: min(82%, 520px);
+  padding: 10px 14px;
+  line-height: 1.55;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.bot span {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-bubble) var(--radius-bubble) var(--radius-bubble) 4px;
+}
+
+.me span {
+  background: var(--bg-alt);
+  border: 1px solid rgba(22, 75, 104, 0.10);
+  border-radius: var(--radius-bubble) var(--radius-bubble) 4px var(--radius-bubble);
+}
+
+.bot span.thinking {
+  color: var(--text-muted);
+}
+
+/* ---------- suggestions ---------- */
+
+#chips {
+  flex: none;
+  display: flex;
+  gap: 8px;
+  padding: 12px 24px;
+  overflow-x: auto;
+  border-top: 1px solid var(--border);
+  scrollbar-width: none;          /* Firefox */
+  -ms-overflow-style: none;       /* old Edge */
+  -webkit-overflow-scrolling: touch;
+}
+
+#chips::-webkit-scrollbar { display: none; }
+
+#chips button {
+  flex: none;
+  padding: 6px 13px;
+  font: inherit;
+  font-size: 0.82rem;
+  line-height: 1.4;
+  white-space: nowrap;
+  color: var(--primary);
+  background: #fff;
+  border: 1px solid var(--bg-alt);
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background-color 0.15s, border-color 0.15s;
+}
+
+#chips button:hover {
+  background: var(--bg);
+  border-color: var(--secondary);
+}
+
+/* ---------- input ---------- */
+
+#row {
+  flex: none;
+  display: flex;
+  gap: 8px;
+  padding: 12px 24px 20px;
+}
+
+#msg {
+  flex: 1;
+  min-width: 0;
+  padding: 11px 14px;
+  font: inherit;
+  color: var(--text);
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-control);
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+#msg::placeholder { color: var(--text-muted); }
+
+#msg:hover { border-color: var(--bg-alt); }
+
+#msg:focus {
+  outline: none;
+  border-color: var(--secondary);
+  box-shadow: 0 0 0 3px rgba(85, 185, 184, 0.25);
+}
+
+#send {
+  flex: none;
+  padding: 0 20px;
+  font: inherit;
+  font-weight: 600;
+  color: #fff;
+  background: var(--primary);
+  border: 0;
+  border-radius: var(--radius-control);
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+#send:hover  { background: var(--primary-hover); }
+#send:active { background: var(--text); }
+
+#send:focus-visible,
+#chips button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* ---------- tablet ---------- */
+
+@media (max-width: 760px) {
+  body { padding: 16px 12px; }
+  .card { height: min(720px, calc(100vh - 32px)); height: min(720px, calc(100dvh - 32px)); }
+}
+
+/* ---------- mobile ---------- */
+
+@media (max-width: 520px) {
+  body { padding: 0; place-items: stretch; }
+
+  .card {
+    max-width: none;
+    height: 100vh;
+    height: 100dvh;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .top  { padding: 14px 16px; }
+  #log  { padding: 16px; }
+  #chips { padding: 10px 16px; }
+  #row  { padding: 10px 16px 14px; }
+
+  .me span, .bot span { max-width: 90%; }
+  #msg { font-size: 16px; }   /* stops iOS zooming into the field */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #log { scroll-behavior: auto; }
+  .food { animation: none; }
+  * { transition: none !important; }
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deshbhora Swad Sandhan Food Assistant</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="card">
+  <div class="top">
+    <div class="top-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 15a8 8 0 0 1 16 0"/>
+        <path d="M2.5 18.5h19"/>
+        <path d="M12 7V5.5"/>
+        <path d="M10.5 5.5h3"/>
+      </svg>
+    </div>
+    <div class="top-text">
+      <h2>Deshbhora Swad Sandhan Food Assistant</h2>
+      <p class="hint">Tell me your health problem, or ask for the menu of an Indian state.</p>
+    </div>
+  </div>
+
+  <div id="log"></div>
+  <div id="chips"></div>
+
+  <div id="row">
+    <input id="msg" aria-label="Your message" autocomplete="off" placeholder="Type here, for example: I have diabetes" onkeydown="if(event.key==='Enter') send()">
+    <button id="send" onclick="send()">Send</button>
+  </div>
+</div>
+
+
+<script>
+  const log = document.getElementById("log");
+
+  function add(who, text) {
+    const row = document.createElement("div");
+    row.className = who;
+    const bubble = document.createElement("span");
+    bubble.textContent = text;                       
+    row.appendChild(bubble);
+    log.appendChild(row);
+    log.scrollTop = log.scrollHeight;
+    return bubble;
+  }
+
+  async function send(text) {
+    const box = document.getElementById("msg");
+    text = text || box.value.trim();
+    if (!text) return;
+    add("me", text);
+    box.value = "";
+    const waiting = add("bot", "Thinking...");
+    waiting.classList.add("thinking");
+    try {
+      const res = await fetch("/get", {method: "POST", body: new URLSearchParams({msg: text})});
+      waiting.textContent = res.ok ? await res.text() : "Server error. Please try again.";
+    } catch (e) {
+      waiting.textContent = "Cannot reach the server. Is app.py running?";
+    }
+    waiting.classList.remove("thinking");
+    log.scrollTop = log.scrollHeight;
+  }
+
+  ["I have diabetes", "I have high blood pressure", "I feel weak, I am anaemic",
+   "Gujarat menu", "Kerala dishes", "Show me West Bengal dishes", "Vegetarian dishes with protein"].forEach(t => {
+    const b = document.createElement("button");
+    b.textContent = t;
+    b.onclick = () => send(t);
+    document.getElementById("chips").appendChild(b);
+  });
+
+  add("bot",  "Namaskar! Welcome to Deshbhora Swad Sandhan, where India's diverse flavours meet mindful eating! " +
+             "Tell me about your dietary goals or food preferences, such as weight management, " +
+             "eating healthy, improving your nutrition or finding protein-rich meals. I'll help you " +
+             "explore suitable dishes based on their nutritional information. You can also discover " +
+             "authentic regional cuisines and explore the menu of any Indian state, from kashmir to kanyakumari. " +
+             "Let's discover the taste of India together!");
+</script>
+</body>
+</html>
